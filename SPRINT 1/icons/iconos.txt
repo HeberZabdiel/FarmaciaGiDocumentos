@@ -1,0 +1,18 @@
+regresar
+inicio
+ingresar
+usuario
+eliminar
+editar
+guardar
+cancelar
+salir
+llaves(contra)
+reportes
+ventas
+compra
+efectivo
+tarjetas
+carrito de compras
+buscador
+
