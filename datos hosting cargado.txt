@@ -1,0 +1,102 @@
+adelaida97
+
+eshost.com.ar
+InfinityFree
+adheel.mr@gmail.com
+
+Adelaida_97
+
+
+acount 1
+user:  epiz_28125223
+contra: farmaciasGi_ranita
+
+
+ftp
+username: epiz_28125223
+pass: W0HLvmSPr8
+
+mysql db name: epiz_28125223_farmacias_gi_prueba
+sql113.epizy.com
+
+
+
+descontar de producto subproducto creado
+
+registros CNAME
+revisar dns en toolbox
+
+<a class="btn btn-primary mt-4"   href="{{url('/puntoVenta/subproducto/create/?id=` + x + `')}}">
+                                             CREAR SUBPRODTUCTO </a> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SSL
+
+CLAVE PRIVADA
+
+-----BEGIN PRIVATE KEY-----
+MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCpH4LymCcBIJeC
+d43ub3ZKh/0wHbTf2vfIpa4w+OOdvl1dc3wqFrydaZil18ak2kLQcMGdaA+rZhDY
+6uKdmOjfSn7NPZG0tpaNKbkCNl6TGND4Jw+QnbjoIK1Q9uz+ICH4F4Eo78shOzU3
+2s/WpNVp3Hw9l2W6guYLQKD8uFspTwG4nu0YAm9i8UGtdyAXNDA8Q6/KuEDJ/vgG
+fV66yD/ewBB8tBvyoXeM6vraAi9Y8mLEVO5588wpdGcBcooxka+swqC5EyGJHhog
+66VgUtiVFAHWiTyTV8biVd4hlOKYllqqrzKtT/FPbDxNc9ZTWoB+5mw7tASSF/py
+UHTj66yNAgMBAAECggEAIZ1Tx6gaSI0T0Ci3GycoWdQBrOiapMu+6DCWGMG/bAEE
+SajEixEN2DO+1We34dhH42ol8YVXZ/fXbWXyOOTFlGwYG+8a4NJRxij+zsPDtHUA
+Q/Jvk4zlza2BBVCu9iuo1MjHMT3IIAjGoR1qpf0JNgtO3mcTHykZVC86UEDMTb9F
+eXoO12qlxBTh5mYPSCJmDv5oVCHz8jabs+ywhoNrXCRlOT1aHsKjyEm3T9c6YvYU
+JqhDL/8GiujAJDC51qTEGbkvaXL7oJcrUxhTTRZKaRwDG506Zd6iAjQdsQ6XW32J
+/8pRtml7XiCJgwFf7TsufJGSgAMYElxjeJttPddOQQKBgQDc5fYtFeocaj2SOtWA
+ZeAVE3n1zmWvaExYue57WEs/wxvCPdTo6vtpzHfchlD26tpsE7aqFqAvEP+jvheK
+eUnzc90MacwCp5dUzETD1bLbCdqkvtmmD2QHcnCsgm39GBfukwMo6LahoZ9PGtMH
+5T0SW8+Uqva7ZSNtASGRNKGgiQKBgQDD/1v6qb7DBMGPi6F5DRM1RTyDaxTRDdje
+X+2lajF+/xI3uv0pwF82sLy1COvwavCiwdN9krm4VfvgSrBK2JPvWYjpq3tgX4ad
+gizT/hMgp+i+JXnHHYosnNvhYAVcPmcfsdz74Oo/I4Yarw20eeyeInWMa6R7a106
+SlTIieYC5QKBgHUFJbqQp2rSJTf4Du5sCZ9gp/U9l8Sqffdq2Bljlsl6dJQb6VRS
+V0me1chvJykHFRq3/sZwIf+NA8AcjZ//zNs5f9p5mWe2nIaBh9QuuwcqWzd3GxnL
+gXQofeQFXHr9boAmRUBAt688TYa8cRr3p7i4Bml9gCOZ2oB+Xufrd8vxAoGBAL1+
+K+1jI93kwUcJVqp0a7e7ItBkPRIJcz08PcUJsKT58yESliVBqkxz/16AK6ybl9+j
+ydfEfe6sowKs81jJn+1vASH5+ySn9rxd2P10zgVqkWkVTnGmK6sKVMPHVCdk5csM
+6XxUbeVxcPxndragkpYo9sE2aSYyHUZ4CxR/znPJAoGBAKnXc9evdIht5Ecbs1Ha
+bCJknE9w1Gev/8ls3YWV5C0yeQvDDRM+jwrymXqdqjXhkLRCmGHf7DF49fsd98XJ
+Xy38G+l7Y+x89CxRgF4b2ZALm/9Tmug33gvmT5iSHnC8mc4cXDaacBUVrrSUqrlp
+ZQWnom+AuO5ZG6RPJpmHVONQ
+-----END PRIVATE KEY-----
+
+
+
+
+
+
+-----BEGIN CERTIFICATE REQUEST-----
+MIIC9TCCAd0CAQAwga8xCzAJBgNVBAYTAk1YMQ8wDQYDVQQIDAZPQVhBQ0ExDzAN
+BgNVBAcMBk9BWEFDQTEeMBwGA1UECgwVRkFSTUFDSUFTIEdJIFpJTUFUTEFOMRIw
+EAYDVQQLDAlTRUdVUklEQUQxJjAkBgNVBAMMHWZhcm1hY2lhc2dpemltYXRsYW4u
+ZXBpenkuY29tMSIwIAYJKoZIhvcNAQkBFhNhZGhlZWwubXJAZ21haWwuY29tMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqR+C8pgnASCXgneN7m92Sof9
+MB2039r3yKWuMPjjnb5dXXN8Kha8nWmYpdfGpNpC0HDBnWgPq2YQ2OrinZjo30p+
+zT2RtLaWjSm5AjZekxjQ+CcPkJ246CCtUPbs/iAh+BeBKO/LITs1N9rP1qTVadx8
+PZdluoLmC0Cg/LhbKU8BuJ7tGAJvYvFBrXcgFzQwPEOvyrhAyf74Bn1eusg/3sAQ
+fLQb8qF3jOr62gIvWPJixFTuefPMKXRnAXKKMZGvrMKguRMhiR4aIOulYFLYlRQB
+1ok8k1fG4lXeIZTimJZaqq8yrU/xT2w8TXPWU1qAfuZsO7QEkhf6clB04+usjQID
+AQABoAAwDQYJKoZIhvcNAQEFBQADggEBAJjpEW8eQid4Djg0EFH6aqBvSZpUREMo
+8kyVAkrRUaciu2RalcoVwSrc99XVqSpYVy4PCDBLO5KecGjdcMt6mRsPluJ739Wz
+t05WJ8J4n5yRlXIdRQLWDRG2f9rLNjK65ojJT+95XhxT7jpHb8TM/cCAtmlEwwZs
+hJ4C959D9s7J69GzyU1715pTSInUvXEEzCRNa974jij5DsHsiKoEhSXX7gUomGX1
+MgXKVku7keYXNxwJLfiMABetijjc5rvIa9Z1ndWR2E+oiYTg6G9vUGndqLBSNAX6
+J7eAGl5uWjxhNpsJxIZ6svOKvZfxlRBOx/3yC5cqEXTGdjIx0vOXcDg=
+-----END CERTIFICATE REQUEST-----
