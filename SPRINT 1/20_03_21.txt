@@ -1,0 +1,37 @@
+ <a class="btn btn-outline-primary mb-2" href="{{ url('/puntoVenta/producto/modiPrecio` + idProdSuc + `')}}" onclick="return confirm('¿MODIFICAR PRECIO DEL PRODUCTO?')"> 
+                                            <img src="{{ asset('img/edit.png') }}" alt="Editar" width="25px" height="25px" >
+                                            MODIFICAR PRECIO  </a>
+
+<a class="btn btn-outline-primary" href="{{ url('/puntoVenta/producto/modiCosto` + idProdSuc + `')}}" onclick="return confirm('¿MODIFICAR COSTO DEL PRODUCTO?')"> 
+                                            <img src="{{ asset('img/edit.png') }}" alt="Editar" width="25px" height="25px" >
+                                            MODIFICAR COSTO  </a>
+
+cambiarCostoPrecio = `
+                        <div class="row col ">
+                            <div class=" col-6">
+                                    <button type="button" class="btn btn-outline-primary mb-2" data-toggle="modal" href=".bd-example-modal-lg"  onclick=" return modificarPrecio( ` + idProdSuc + `)" value="` + idProdSuc + `">
+                                             MODIFICAR PRECIO2
+                                            </button>
+                                            <input type="number" name="precioNuevo" id="precio_nuevo" class="form-control " placeholder="PRECIO NUEVO" value="`+`" autofocus required disabled>
+                                            </div>
+                                            <div class=" col-6">
+                                    <button type="button" class="btn btn-outline-primary mb-2" data-toggle="modal" href=".bd-example-modal-lg"  onclick=" return modificarPrecio( ` + idProdSuc + `)" value="` + idProdSuc + `">
+                                           MODIFICAR PRECIO
+                                            </button>
+                                            <input type="number" name="costoNuevo" id="costo_nuevo" class="form-control " placeholder="COSTO NUEVO" value="`+
+                                             `" autofocus required disabled>
+                                            </div>
+                                            </div>
+                                    `;
+
+<button type="button" class="btn btn-outline-primary mb-2" data-toggle="modal" href="modal_precio_venta"  onclick=" return modificarPrecio( ` + idProdSuc + `)" value="` + idProdSuc + `">
+                                           MODIFICAR PRECIO
+                                            </button>
+                                            <br/><br/>
+                                            <button type="button" class="btn btn-outline-primary mb-2" data-toggle="modal" href="modal_precio_venta"  onclick=" return modificarCosto( ` + idProdSuc + `)" value="` + idProdSuc + `">
+                                             MODIFICAR COSTO
+                                            </button>
+
+
+
+id="modiPrecioCosto"
