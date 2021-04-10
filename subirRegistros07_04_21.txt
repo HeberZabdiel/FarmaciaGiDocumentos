@@ -1,0 +1,23 @@
+N/A
+SELECT * FROM `productos` WHERE `idDepartamento` = 7 or `idDepartamento` = 9;
+
+SELECT * FROM  SUCURSAL_PRODUCTOS WHERE idProductos in (
+SELECT id FROM `productos` WHERE `idDepartamento` = 7 or `idDepartamento` = 9);
+
+1-236
+237-3532
+3533-4247
+4248 - 4584
+
+DELETE FROM productos WHERE `id` > 4247;
+
+4462,118.00,118.00,1,0,1,1,4462,,
+
+4269
+
+bebes
+pastillas sueltas
+
+generico
+patente
+perfumeria
