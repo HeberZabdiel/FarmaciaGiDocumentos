@@ -437,11 +437,6 @@
   </notepads>
   <order>
     <hop>
-      <from>Add constants 2</from>
-      <to>String operations 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>Select values 2 2</from>
       <to>salida1</to>
       <enabled>Y</enabled>
@@ -452,18 +447,13 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Replace in string 2</from>
-      <to>Select values 2 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>String operations 2</from>
-      <to>Replace in string 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>Add sequence</from>
       <to>Add constants 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Add constants 2</from>
+      <to>Select values 2 2</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -542,7 +532,7 @@
       <field>
         <name>status</name>
         <type>Integer</type>
-        <format>0000000000000</format>
+        <format>#</format>
         <currency/>
         <decimal/>
         <group/>
@@ -554,7 +544,7 @@
       <field>
         <name>idSucursal</name>
         <type>Integer</type>
-        <format>0000000000000</format>
+        <format>#</format>
         <currency/>
         <decimal/>
         <group/>
@@ -596,7 +586,7 @@
     <seqname>SEQ_</seqname>
     <use_counter>Y</use_counter>
     <counter_name/>
-    <start_at>4248</start_at>
+    <start_at>1</start_at>
     <increment_by>1</increment_by>
     <max_value>999999999</max_value>
     <attributes/>
@@ -624,11 +614,11 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>C:\Users\adela\Downloads\DATOS\4 PEDTOS\ultimos.csv</filename>
+    <filename>C:\Users\adela\Downloads\DATOS\TODOS DEPTOS ULTIMOS ENV\todos_tab.txt</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
-    <separator>,</separator>
+    <separator>	</separator>
     <enclosure>"</enclosure>
     <header>Y</header>
     <buffer_size>50000</buffer_size>
@@ -646,7 +636,7 @@
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>21</length>
+        <length>19</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -657,7 +647,7 @@
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>31</length>
+        <length>51</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -723,7 +713,7 @@
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>11</length>
+        <length>5</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -743,177 +733,6 @@
     </GUI>
   </step>
   <step>
-    <name>Replace in string 2</name>
-    <type>ReplaceString</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <in_stream_name>Departamento</in_stream_name>
-        <out_stream_name/>
-        <use_regex>no</use_regex>
-        <replace_string>SIN DEPARTAMENTO</replace_string>
-        <replace_by_string>1</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-      <field>
-        <in_stream_name>Departamento</in_stream_name>
-        <out_stream_name/>
-        <use_regex>no</use_regex>
-        <replace_string>VENTA LIBRE</replace_string>
-        <replace_by_string>2</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-      <field>
-        <in_stream_name>Departamento</in_stream_name>
-        <out_stream_name/>
-        <use_regex>no</use_regex>
-        <replace_string>PERFUMERIA</replace_string>
-        <replace_by_string>3</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-      <field>
-        <in_stream_name>Departamento</in_stream_name>
-        <out_stream_name/>
-        <use_regex>no</use_regex>
-        <replace_string>PATENTE</replace_string>
-        <replace_by_string>4</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-      <field>
-        <in_stream_name>Departamento</in_stream_name>
-        <out_stream_name/>
-        <use_regex>no</use_regex>
-        <replace_string>GENERICOS</replace_string>
-        <replace_by_string>5</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-      <field>
-        <in_stream_name>Departamento</in_stream_name>
-        <out_stream_name/>
-        <use_regex>no</use_regex>
-        <replace_string>PAPELERIA</replace_string>
-        <replace_by_string>6</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-      <field>
-        <in_stream_name>Departamento</in_stream_name>
-        <out_stream_name/>
-        <use_regex>no</use_regex>
-        <replace_string>MATERIAL DE CURACION</replace_string>
-        <replace_by_string>7</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-      <field>
-        <in_stream_name>Departamento</in_stream_name>
-        <out_stream_name/>
-        <use_regex>no</use_regex>
-        <replace_string>BEBES</replace_string>
-        <replace_by_string>8</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-      <field>
-        <in_stream_name>Departamento</in_stream_name>
-        <out_stream_name/>
-        <use_regex>no</use_regex>
-        <replace_string>REBOTICA</replace_string>
-        <replace_by_string>9</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-      <field>
-        <in_stream_name>Departamento</in_stream_name>
-        <out_stream_name/>
-        <use_regex>no</use_regex>
-        <replace_string>PASTILLAS SUELTAS</replace_string>
-        <replace_by_string>10</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-      <field>
-        <in_stream_name>nombre</in_stream_name>
-        <out_stream_name/>
-        <use_regex>no</use_regex>
-        <replace_string>1</replace_string>
-        <replace_by_string/>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string>Descripcion</replace_field_by_string>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-      <field>
-        <in_stream_name>Departamento</in_stream_name>
-        <out_stream_name/>
-        <use_regex>no</use_regex>
-        <replace_string>MAYRA GI</replace_string>
-        <replace_by_string>11</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>544</xloc>
-      <yloc>176</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
     <name>Select values 2 2</name>
     <type>SelectValues</type>
     <description/>
@@ -927,16 +746,19 @@
     <fields>
       <field>
         <name>id</name>
+        <rename/>
       </field>
       <field>
         <name>Codigo</name>
         <rename>codigoBarras</rename>
       </field>
       <field>
-        <name>nombre</name>
+        <name>Descripcion</name>
+        <rename>nombre</rename>
       </field>
       <field>
         <name>imagen</name>
+        <rename/>
       </field>
       <field>
         <name>Descripcion</name>
@@ -944,6 +766,7 @@
       </field>
       <field>
         <name>receta</name>
+        <rename/>
       </field>
       <field>
         <name>Departamento</name>
@@ -951,9 +774,11 @@
       </field>
       <field>
         <name>created_at</name>
+        <rename/>
       </field>
       <field>
         <name>updated_at</name>
+        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -972,46 +797,6 @@
     </GUI>
   </step>
   <step>
-    <name>String operations 2</name>
-    <type>StringOperations</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <in_stream_name>Departamento</in_stream_name>
-        <out_stream_name/>
-        <trim_type/>
-        <lower_upper>upper</lower_upper>
-        <padding_type/>
-        <pad_char/>
-        <pad_len/>
-        <init_cap/>
-        <mask_xml/>
-        <digits/>
-        <remove_special_characters/>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>432</xloc>
-      <yloc>176</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
     <name>salida1</name>
     <type>TextFileOutput</type>
     <description/>
@@ -1022,7 +807,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <separator>,</separator>
+    <separator>;</separator>
     <enclosure>"</enclosure>
     <enclosure_forced>N</enclosure_forced>
     <enclosure_fix_disabled>N</enclosure_fix_disabled>
@@ -1036,7 +821,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>C:\Users\adela\Downloads\DATOS\NUEVOS\PRODUCTO\ultimo</name>
+      <name>C:\Users\adela\Downloads\DATOS\TODOS DEPTOS ULTIMOS ENV\nuevos\prod\todos2</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>Y</do_not_open_new_file_init>
       <extention>txt</extention>
@@ -1056,7 +841,7 @@
       <field>
         <name>id</name>
         <type>Integer</type>
-        <format>####0;-####0</format>
+        <format>#</format>
         <currency/>
         <decimal>.</decimal>
         <group>,</group>
@@ -1074,7 +859,7 @@
         <group/>
         <nullif/>
         <trim_type>none</trim_type>
-        <length>21</length>
+        <length>-1</length>
         <precision>-1</precision>
       </field>
       <field>
@@ -1110,7 +895,7 @@
         <group/>
         <nullif/>
         <trim_type>none</trim_type>
-        <length>31</length>
+        <length>-1</length>
         <precision>-1</precision>
       </field>
       <field>
@@ -1134,7 +919,7 @@
         <group/>
         <nullif/>
         <trim_type>none</trim_type>
-        <length>11</length>
+        <length>-1</length>
         <precision>-1</precision>
       </field>
       <field>

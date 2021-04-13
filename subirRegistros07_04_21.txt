@@ -21,3 +21,23 @@ pastillas sueltas
 generico
 patente
 perfumeria
+
+Guardar compra ->hacer boton azul y no gris
+
+optimizar codigo de proveedor
+
+cambiar texto no hay sucursales dadas de baja
+
+	costo PRECIO
+rebotica 2878	2878
+venta libre 28553.50	29159.50
+
+perfumeria	33027	32598
+patente		25864	25864
+pastillas sueltas	12444	12444
+papeleria	131985.5	131997.5
+mayra gi 	835	835
+material curacion	49917	49917
+genericos	36117	40049
+doctora 540 540
+
