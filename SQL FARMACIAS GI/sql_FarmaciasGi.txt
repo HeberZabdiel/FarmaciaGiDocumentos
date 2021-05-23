@@ -1,0 +1,218 @@
+/*
+CREATE EVENT `rellenarHistorialInv` 
+ON SCHEDULE EVERY 1 DAY STARTS '2021-05-21 00:00:01'
+ON COMPLETION NOT PRESERVE ENABLE 
+DO INSERT INTO historial_inventarios 
+set valido = 0
+where
+DATE_ADD(fechaCreacion, INTERVAL 45 DAY)<NOW() and valido=1;
+*/
+
+CREATE EVENT historialInv
+ON SCHEDULE EVERY 1 DAY STARTS '2021-05-21 00:00:01'
+DO INSERT INTO historial_inventarios VALUES (100, '2021-05-21',NOW(), NOW())
+
+
+
+INSERT INTO `historial_inventarios` (`id`, `totalInv`, `fecha`, `created_at`, `updated_at`) VALUES (NULL, '150', '2021-05-21', NULL, NULL);
+INSERT INTO `historial_inventarios` (`id`, `totalInv`, `fecha`, `created_at`, `updated_at`) VALUES (NULL, '150', '2021-05-21', now(), now())
+
+ 
+
+INSERT INTO `historial_inventarios` (`id`, `totalInv`, `fecha`, `created_at`, `updated_at`) VALUES (NULL, '150', now(), now(), now())
+
+
+SELECT SUM(columna) FROM tabla
+
+select dv.cantidad * dv.precioIndividual as totalV sum(totalV) from detalle_ventas dv in (select id, tipo, idSucursalEmpleado from ventas v where v.created_at = currentDate()) order by v.id ASC;
+
+
+
+select v.id, v.created_at, dv.idVenta, dv.cantidad,dv.precioIndividual,  dv.cantidad * dv.precioIndividual as totalV sum(totalV) from detalle_ventas dv in (select * from ventas v where v.created_at = now()) order by v.id ASC;
+
+SELECT nombreCliente, idPedido, fechaPedido
+FROM CLIENTE INNER JOIN PEDIDO
+ON cliente.idCliente = pedido.idCliente
+
+select  v.id, v.created_at, dv.idVenta, dv.cantidad,dv.precioIndividual,  dv.cantidad * dv.precioIndividual as totalV, SUM(dv.cantidad * dv.precioIndividual)  from detalle_ventas dv inner join ventas v on dv.idVenta = v.id where v.fecha = CURDATE()  order by v.id ASC ;
+
+
+select v.id, v.created_at, dv.idVenta, dv.cantidad,dv.precioIndividual, dv.cantidad * dv.precioIndividual as totalV, SUM(dv.cantidad * dv.precioIndividual) from detalle_ventas dv inner join ventas v on dv.idVenta = v.id where v.fecha = CURDATE() order by v.id ASC
+
+
+set @totalVentaD = (select SUM(dv.cantidad * dv.precioIndividual) as totalV from detalle_ventas dv inner join ventas v on dv.idVenta = v.id where v.fecha = CURDATE() order by v.id ASC);
+
+
+select sucEmp.id, SUM(dv.cantidad * dv.precioIndividual) as totalV 
+from detalle_ventas dv inner join ventas v on dv.idVenta = v.id INNER JOIN sucursal_empleados sucEmp on v.idSucursalEmpleado = sucEmp.id
+where v.fecha = CURDATE()  order by sucEmp.id ASC;
+
+in (select * from ventas v where v.created_at = now()) order by v.id ASC;
+
+
+
+select sucEmp.idSucursal,  sum( dv.precioIndividual * dv.cantidad) as totalV
+from detalle_ventas dv inner join ventas v on dv.idVenta = v.id INNER JOIN sucursal_empleados sucEmp on v.idSucursalEmpleado = sucEmp.id
+  GROUP BY sucEmp.idSucursal
+
+
+PARTE DOS
+
+CREATE EVENT historialInv
+ON SCHEDULE EVERY 1 DAY STARTS '2021-05-21 00:00:01'
+DO 
+BEGIN
+
+INSERT INTO historial_inventarios VALUES (100, NOW(),NOW(), NOW())
+END 
+
+
+DELIMITER $$
+BEGIN
+  SET maximo = (
+    SELECT MAX(precio_venta)
+    FROM producto
+        WHERE producto.gama = gama);
+  SET minimo = (
+    SELECT MIN(precio_venta)
+    FROM producto
+        WHERE producto.gama = gama);
+END
+$$
+DELIMITER ;
+
+
+DELIMITER $$
+
+CREATE PROCEDURE GetUpdatedPrices(itemcount INT)
+BEGIN
+	DECLARE factor DECIMAL(5, 2);
+	SET factor:=3.45;
+	SELECT PartNo, Description, itemcount * factor * ListPrice FROM Catalogue;
+    
+    SET maximo = (
+    SELECT MAX(precio_venta)
+    FROM producto
+        WHERE producto.gama = gama);
+  SET minimo = (
+    SELECT MIN(precio_venta)
+    FROM producto
+        WHERE producto.gama = gama);
+END
+$$
+DELIMITER ;
+
+
+TRES
+
+
+DELIMITER $$
+CREATE EVENT historialInv
+ON SCHEDULE EVERY 1 DAY STARTS '2021-05-21 00:00:01'
+DO
+BEGIN
+CALL master_test();
+INSERT INTO historial_inventarios VALUES (100, NOW(),NOW(), NOW());
+END 
+$$
+DELIMITER ;
+
+
+
+
+
+
+
+DELIMITER $$
+CREATE PROCEDURE  getIdSucursal()
+BEGIN
+   -- DECLARE idSucursal;
+    select sucEmp.idSucursal
+from detalle_ventas dv inner join ventas v on dv.idVenta = v.id INNER JOIN sucursal_empleados sucEmp on v.idSucursalEmpleado = sucEmp.id
+  GROUP BY sucEmp.idSucursal;
+END
+$$
+DELIMITER ;
+
+
+ SET totalVXSuc = ( select sum( dv.precioIndividual * dv.cantidad) as totalV
+from detalle_ventas dv inner join ventas v on dv.idVenta = v.id INNER JOIN sucursal_empleados sucEmp on v.idSucursalEmpleado = sucEmp.id
+  GROUP BY sucEmp.idSucursal);
+
+
+
+
+
+
+<<<<<<<<<<<<<<<<  VISTA DE TOTAL VENTAS POR SUCURSAL >>>>>>>>>>>>>>>>>>>>>>><
+
+ CREATE VIEW totalVentas AS select sucEmp.idSucursal,  sum( dv.precioIndividual * dv.cantidad) as totalV
+from detalle_ventas dv inner join ventas v on dv.idVenta = v.id INNER JOIN sucursal_empleados sucEmp on v.idSucursalEmpleado = sucEmp.id where v.fecha = CURDATE()
+  GROUP BY sucEmp.idSucursal;
+
+
+
+ <script>
+        /*
+    function imprimir() {
+        window.print();
+    }
+    */
+  //  imprimir();
+    //let productos =json($productos);
+    //alert(productos);
+    //let fecha = new Date();
+    //alert(fecha.toLocaleDateString();
+    </script>
+
+
+
+<<<<<<<<<<<<<<<<<<<<<< DISPARADOR CREADO >>>>>>>>>>>>>>>>>>>>>>>
+
+DELIMITER $$
+CREATE EVENT historialInv
+ON SCHEDULE EVERY 1 DAY STARTS '2021-05-21 00:00:01'
+DO
+BEGIN
+-- DECLARE idSucursal;
+SELECT @idSuc:= sucEmp.idSucursal
+from detalle_ventas dv inner join ventas v on dv.idVenta = v.id INNER JOIN sucursal_empleados sucEmp on v.idSucursalEmpleado = sucEmp.id
+  GROUP BY sucEmp.idSucursal; 
+  
+select @totalV:= sum( dv.precioIndividual * dv.cantidad) as totalV
+from detalle_ventas dv inner join ventas v on dv.idVenta = v.id INNER JOIN sucursal_empleados sucEmp on v.idSucursalEmpleado = sucEmp.id
+  GROUP BY sucEmp.idSucursal; 
+
+INSERT INTO `historial_inventarios` (`id`, `totalInv`, `fecha`, `created_at`, `updated_at`) VALUES (NULL, @totalV, now(), @idSuc, now());
+
+END 
+$$
+DELIMITER ;
+
+
+
+
+
+2)
+
+
+
+DELIMITER $$
+CREATE EVENT historialInv5
+ON SCHEDULE EVERY 1 DAY STARTS '2021-05-22 17:30:01'
+DO
+BEGIN
+-- DECLARE idSucursal;
+SELECT @idSuc:= sucEmp.idSucursal
+from detalle_ventas dv inner join ventas v on dv.idVenta = v.id INNER JOIN sucursal_empleados sucEmp on v.idSucursalEmpleado = sucEmp.id
+  GROUP BY sucEmp.idSucursal; 
+  
+select @totalV:= sum( dv.precioIndividual * dv.cantidad) as totalV
+from detalle_ventas dv inner join ventas v on dv.idVenta = v.id INNER JOIN sucursal_empleados sucEmp on v.idSucursalEmpleado = sucEmp.id
+  GROUP BY sucEmp.idSucursal; 
+
+INSERT INTO `historial_inventarios` (`id`, `totalInv`, `fecha`, `created_at`, `updated_at`) VALUES (NULL, @totalV, now(), @idSuc, now());
+
+END 
+$$
+DELIMITER ;
