@@ -595,29 +595,29 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>C:\Users\adela\Downloads\DATOS\TODOS DEPTOS ULTIMOS ENV\todos_tab.txt</filename>
+    <filename>D:\ESCRITORIO C\DATOS\DATOS DEPTOS FARMACIAS GI\todosCargarFin.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
-    <separator>	</separator>
-    <enclosure>"</enclosure>
+    <separator>,</separator>
+    <enclosure/>
     <header>Y</header>
     <buffer_size>50000</buffer_size>
     <lazy_conversion>Y</lazy_conversion>
     <add_filename_result>N</add_filename_result>
     <parallel>N</parallel>
     <newline_possible>N</newline_possible>
-    <format>mixed</format>
-    <encoding/>
+    <format>DOS</format>
+    <encoding>UTF-8</encoding>
     <fields>
       <field>
-        <name>Codigo</name>
+        <name>﻿Codigo</name>
         <type>String</type>
         <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>19</length>
+        <length>21</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -628,41 +628,41 @@
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>51</length>
+        <length>46</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
       <field>
         <name>Precio Costo</name>
         <type>Number</type>
-        <format>$#,##0.00</format>
+        <format>#.#</format>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>15</length>
-        <precision>2</precision>
+        <length>3</length>
+        <precision>1</precision>
         <trim_type>none</trim_type>
       </field>
       <field>
         <name>Precio Venta</name>
         <type>Number</type>
-        <format>$#,##0.00</format>
+        <format>#.#</format>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>15</length>
-        <precision>2</precision>
+        <length>3</length>
+        <precision>1</precision>
         <trim_type>none</trim_type>
       </field>
       <field>
         <name>Precio Mayoreo</name>
         <type>Number</type>
-        <format>$#,##0.00</format>
+        <format>#.#</format>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>15</length>
-        <precision>2</precision>
+        <length>3</length>
+        <precision>1</precision>
         <trim_type>none</trim_type>
       </field>
       <field>
@@ -677,7 +677,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Inv. Minimo</name>
+        <name>Inv_Minimo</name>
         <type>Integer</type>
         <format>#</format>
         <currency>$</currency>
@@ -694,7 +694,7 @@
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>5</length>
+        <length>20</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -742,7 +742,7 @@
         <rename>existencia</rename>
       </field>
       <field>
-        <name>Inv. Minimo</name>
+        <name>Inv_Minimo</name>
         <rename>minimoStock</rename>
       </field>
       <field>
@@ -861,8 +861,8 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <separator>,</separator>
-    <enclosure>"</enclosure>
+    <separator>;</separator>
+    <enclosure/>
     <enclosure_forced>N</enclosure_forced>
     <enclosure_fix_disabled>N</enclosure_fix_disabled>
     <header>N</header>
@@ -875,7 +875,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>C:\Users\adela\Downloads\DATOS\TODOS DEPTOS ULTIMOS ENV\nuevos\suc_prod_todos</name>
+      <name>D:\ESCRITORIO C\DATOS\DATOS DEPTOS FARMACIAS GI\NUEVOS\SUC_PROD</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>Y</do_not_open_new_file_init>
       <extention>txt</extention>

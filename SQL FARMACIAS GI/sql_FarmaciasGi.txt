@@ -216,3 +216,22 @@ INSERT INTO `historial_inventarios` (`id`, `totalInv`, `fecha`, `created_at`, `u
 END 
 $$
 DELIMITER ;
+
+
+<<<<<<<<<<<<<<  >>>>>>>>>>>>>>>>>>>>>>>><<
+
+DELIMITER $$
+BEGIN
+SELECT @idSuc:= sucEmp.idSucursal
+from detalle_ventas dv inner join ventas v on dv.idVenta = v.id INNER JOIN sucursal_empleados sucEmp on v.idSucursalEmpleado = sucEmp.id
+  GROUP BY sucEmp.idSucursal;
+  
+select @totalV:= sum( dv.precioIndividual * dv.cantidad) as totalV
+from detalle_ventas dv inner join ventas v on dv.idVenta = v.id INNER JOIN sucursal_empleados sucEmp on v.idSucursalEmpleado = sucEmp.id
+  GROUP BY sucEmp.idSucursal; 
+
+INSERT INTO `historial_inventarios` (`id`, `totalInv`, `fecha`, `created_at`, `updated_at`) VALUES (NULL, @totalV, now(), @idSuc, now());
+
+END
+$$
+ DELIMITER ;
