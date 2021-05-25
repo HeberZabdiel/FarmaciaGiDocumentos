@@ -9,7 +9,7 @@ DATE_ADD(fechaCreacion, INTERVAL 45 DAY)<NOW() and valido=1;
 */
 
 CREATE EVENT historialInv
-ON SCHEDULE EVERY 1 DAY STARTS '2021-05-21 00:00:01'
+ON SCHEDULE u
 DO INSERT INTO historial_inventarios VALUES (100, '2021-05-21',NOW(), NOW())
 
 
