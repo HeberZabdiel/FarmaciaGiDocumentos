@@ -1,48 +1,4 @@
--- phpMyAdmin SQL Dump
--- version 5.0.2
--- https://www.phpmyadmin.net/
---
--- Servidor: 127.0.0.1
--- Tiempo de generación: 07-06-2021 a las 06:42:16
--- Versión del servidor: 10.4.14-MariaDB
--- Versión de PHP: 7.4.10
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
-SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
---
--- Base de datos: `farmacias_gi_prueba`
---
-
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `sucursal_productos`
---
-
-CREATE TABLE `sucursal_productos` (
-  `id` bigint(20) UNSIGNED NOT NULL,
-  `costo` double(8,2) NOT NULL,
-  `precio` double(8,2) NOT NULL,
-  `existencia` int(10) UNSIGNED NOT NULL,
-  `minimoStock` int(10) UNSIGNED NOT NULL,
-  `status` int(10) UNSIGNED NOT NULL,
-  `idSucursal` bigint(20) UNSIGNED NOT NULL,
-  `idProducto` bigint(20) UNSIGNED NOT NULL,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Volcado de datos para la tabla `sucursal_productos`
---
 
 INSERT INTO `sucursal_productos` (`id`, `costo`, `precio`, `existencia`, `minimoStock`, `status`, `idSucursal`, `idProducto`, `created_at`, `updated_at`) VALUES
 (1, 35.00, 35.00, 5, 0, 1, 1, 4, '2021-06-07 01:07:47', '2021-06-07 01:49:02'),
@@ -85,40 +41,3 @@ INSERT INTO `sucursal_productos` (`id`, `costo`, `precio`, `existencia`, `minimo
 (38, 50.00, 50.00, 0, 0, 1, 1, 1667, '2021-06-07 01:19:13', '2021-06-07 01:44:02'),
 (39, 50.00, 50.00, 0, 0, 1, 1, 2788, '2021-06-07 01:19:24', '2021-06-07 01:43:47');
 
---
--- Índices para tablas volcadas
---
-
---
--- Indices de la tabla `sucursal_productos`
---
-ALTER TABLE `sucursal_productos`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `sucursal_productos_idsucursal_foreign` (`idSucursal`),
-  ADD KEY `sucursal_productos_idproducto_foreign` (`idProducto`);
-
---
--- AUTO_INCREMENT de las tablas volcadas
---
-
---
--- AUTO_INCREMENT de la tabla `sucursal_productos`
---
-ALTER TABLE `sucursal_productos`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
-
---
--- Restricciones para tablas volcadas
---
-
---
--- Filtros para la tabla `sucursal_productos`
---
-ALTER TABLE `sucursal_productos`
-  ADD CONSTRAINT `sucursal_productos_idproducto_foreign` FOREIGN KEY (`idProducto`) REFERENCES `productos` (`id`),
-  ADD CONSTRAINT `sucursal_productos_idsucursal_foreign` FOREIGN KEY (`idSucursal`) REFERENCES `sucursals` (`id`);
-COMMIT;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
