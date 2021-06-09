@@ -1,0 +1,40 @@
+id;codigoBarras;nombre;imagen;descripcion;receta;idDepartamento;created_at;updated_at
+4;7501054504528;Labello Hydro;uploads/7fWN1qwHJkhXCQ2p2T4cFQqouk6rd8CeVQR5d2j2.jpg;Labello Hydro;NO;3;0000-00-00 00:00:00;2021-06-09 15:58:08
+5;75020011163850;A-D-KAN SOLUCION;uploads/gUf1u3m3fiGFCumeuPHc5TDmRs9fDpGuZsMwRWPr.jpg;A-D-KAN SOLUCION;NO;5;0000-00-00 00:00:00;2021-06-09 16:05:43
+6;759684437151;ACETONA JALOMA 120ml;uploads/EDYzuLDwet6BFM0JIPj03LWSs9tf4DRaIynaZQf0.jpg;ACETONA JALOMA 120ml;NO;3;0000-00-00 00:00:00;2021-06-09 15:58:27
+29;7501022104255;Aceite Corporal Ricitos De Oro 100ml;uploads/Xt3Ks2UQhxq0jJMteyqxBjeRMabqlsOYu6zDE8FX.jpg;Aceite Corporal Ricitos De Oro 100ml;NO;8;0000-00-00 00:00:00;2021-06-09 16:02:23
+58;7501446000010;Acido Folico Tabletas;uploads/qz7RIO73cnnyXuWxSJ4Mbwh0DwnBYsQOlJUiurl3.jpg;Acido Folico Tabletas;NO;5;0000-00-00 00:00:00;2021-06-09 16:06:02
+116;759684315152;Agua Oxigenada De 240 Ml;uploads/Gyr0TocA9SvdjRruz1fjgS02nwqG7sacm9wh3ewy.jpg;Agua Oxigenada De 240 Ml;NO;3;0000-00-00 00:00:00;2021-06-09 15:58:41
+154;ALIREN JARABE;Aliren Jarabe;uploads/OoZ0Shtbz0aIw8IySq71grQgP7sqI3Zdh2QIr3WK.jpg;Aliren Jarabe;NO;5;0000-00-00 00:00:00;2021-06-09 16:06:21
+169;7502003381146;Ambroxol /Oxeladina Jarabe Infantil F1;uploads/DSdMHy9aBBeOr6BnVyg2ARr6u7yw2rx2oDGACeng.jpg;Ambroxol /Oxeladina Jarabe Infantil F1;NO;5;0000-00-00 00:00:00;2021-06-09 16:06:39
+171;7501277060177;Ambroxol Gotas;uploads/P315GZkLkFGV4wc65sw0p5hDauq9Mw3BkHn2btZP.jpg;Ambroxol Gotas;NO;5;0000-00-00 00:00:00;2021-06-09 16:06:54
+184;7503001007281;Amoxicilina Capsulas 250 Mg;uploads/WFLnM8u5arayDcVrFuNXXFb5LM895fHwysmGGPxm.jpg;Amoxicilina Capsulas 250 Mg;NO;5;0000-00-00 00:00:00;2021-06-09 16:07:09
+201;7503000422665;Ampicilina Tabletas 500 Mg;uploads/ZkDXoZZgS8gpNddk8LrBeMNclqeTXe3XpYYM6uha.png;Ampicilina Tabletas 500 Mg;NO;5;0000-00-00 00:00:00;2021-06-09 16:07:23
+235;7502216129207;Aplicadores Dup Bote;uploads/tTYK9uegaHNMZJZ23IUeFB1LkfgXaKEd3Buj62VH.jpg;Aplicadores Dup Bote;NO;3;0000-00-00 00:00:00;2021-06-09 15:58:56
+242;7502001162426;Ardoson Capsulas;uploads/KQWycgc16FyScsXXyXQUnNKVWQAKMaZ4jLnBue9K.jpg;Ardoson Capsulas;NO;5;0000-00-00 00:00:00;2021-06-09 16:07:36
+257;7501065044013;Astringosol Ice;uploads/xbgkdwGR2SdvRVXwcGyesHIbtJBwew59ovSeCrgE.jpg;Astringosol Ice;NO;3;0000-00-00 00:00:00;2021-06-09 15:59:26
+276;7501557140650;BIFONAZOL CREMA;uploads/GyuEbewNaktejv0gDhbb6KXObok5eer85lu00pFu.jpg;BIFONAZOL CREMA;NO;5;0000-00-00 00:00:00;2021-06-09 16:07:49
+321;7501027512758;Biberon 2 Onzas;uploads/O5Pj3PWa9J35gZdtqHxoXy530xqHs3xwzXKmBEQ6.png;Biberon 2 Onzas;NO;8;0000-00-00 00:00:00;2021-06-09 16:02:38
+466;7501537166311;Brunadol;uploads/VLpOAYW14aRcDdbYiBlSy2rPUHgSU8V1gaDJeGI4.jpg;Brunadol;NO;5;0000-00-00 00:00:00;2021-06-09 16:08:02
+492;7501072639050;CEPILLO CLINIC;uploads/ujApnRDe7yy6WnwpRTNZKGj0RndznRnBX8gb7Dqf.jpg;CEPILLO CLINIC;NO;3;0000-00-00 00:00:00;2021-06-09 15:59:13
+533;7501056326173;CREMA Ponds 400g;uploads/KPbvXzoF91hngByFlNRX3m7KTRN1xyJszXcxpCMl.jpg;CREMA Ponds 400g;NO;3;0000-00-00 00:00:00;2021-06-09 15:59:43
+659;7501506320119;Cepillo Chavo;uploads/cGKTF3FGVzqJTIRQVEmRidcEYz4bxVOWOn9ukQWb.jpg;Cepillo Chavo;NO;8;0000-00-00 00:00:00;2021-06-09 16:02:56
+805;7503000422429;Ciprofloxacino Tab 250 Mg;uploads/0dzPsrTO3XJgSSHWpzKm1Ijr8DtzY8dNwylUS05y.png;Ciprofloxacino Tab 250 Mg;NO;5;0000-00-00 00:00:00;2021-06-09 16:08:15
+989;75010225140284;Crema Mama Grisi;uploads/8nU0DPg5eGHCkhSE7DUcVWYmc2qMV3oIqhffsS74.jpg;Crema Mama Grisi;NO;3;0000-00-00 00:00:00;2021-06-09 16:00:28
+1022;7501082780581;Crema Nuvel Bebe;uploads/FXClesjqdoPmQtwFwLedahKfaoq3nfznnQle9JH5.jpg;Crema Nuvel Bebe;NO;3;0000-00-00 00:00:00;2021-06-09 16:00:43
+1038;7506192504072;Crema Para Peinar Keratina Savile;uploads/SgOHJns5XouRIxbuVucFG0SlNCnKwF6TMEDP8E67.jpg;Crema Para Peinar Keratina Savile;NO;3;0000-00-00 00:00:00;2021-06-09 16:00:59
+1041;7501199413594;Crema Para Peinar Pert;uploads/3Pt4sQe7oI74CAi0OCG9zgJyeWEeroIX0HaNSOQD.jpg;Crema Para Peinar Pert;NO;3;0000-00-00 00:00:00;2021-06-09 16:00:00
+1245;75048099;Desodorante Axe Black Barra;uploads/RA2QZp8mplBbalrn7w4fJZHjIbC5RxthUD091X64.jpg;Desodorante Axe Black Barra;NO;3;0000-00-00 00:00:00;2021-06-09 16:01:21
+1444;4005900515889;Desodorante Nivea Ice Fresh Rollon;uploads/qMjcTyjHg0X45xUMQrIMRmJ5ZndKnvRFXjzNVun5.jpg;Desodorante Nivea Ice Fresh Rollon;NO;3;0000-00-00 00:00:00;2021-06-09 16:01:37
+1667;7501557140988;Diclofenaco Gel;uploads/EmgqLvj7spfkia7UUjLNny6bwhTdTgzru5NJHZBW.jpg;Diclofenaco Gel;NO;5;0000-00-00 00:00:00;2021-06-09 16:08:31
+1809;ESPONJA CLEAN BLUE;Esponja Clean Blue;uploads/FdaCLzTOfOkZ1ErAEZLWBMxic2HrNyqhw7vrZtL0.jpg;Esponja Clean Blue;NO;3;0000-00-00 00:00:00;2021-06-09 16:01:53
+2053;75004729;Gerber Etapa 3;uploads/CRgWXAC2ieQl6J7kGMir947w9BrtwkQUn1jl9ic9.jpg;Gerber Etapa 3;NO;8;0000-00-00 00:00:00;2021-06-09 16:03:09
+2783;7501058625182;Nan 1 360G;uploads/wdBopWffVJIn4zC7nPw5KkdC4M1clZkhWPhRKJoF.jpg;Nan 1 360G;NO;8;0000-00-00 00:00:00;2021-06-09 16:03:29
+2788;7501537193010;Naproxeno 500mg;uploads/FrZE14uQxCIqFaWBTSx7cGLJdcDULXRaPQYXGXYS.jpg;Naproxeno 500mg;NO;5;0000-00-00 00:00:00;2021-06-09 16:08:44
+3108;7501943433137;Pañal Huggies Ultra Confort Etapa 3 Niña;uploads/pYNdSN7ncjyuVnhFuXFRAaUCYWVCPXOq9yhCTu58.jpg;Pañal Huggies Ultra Confort Etapa 3 Niña;NO;8;0000-00-00 00:00:00;2021-06-09 16:09:45
+3616;7501022103111;Shampoo Grisi Ricitos De Oro Manzanilla 100 Ml;uploads/NwKWwieE2CsiEftW1CGkT82Z3Eon5NvgZR3reJ19.jpg;Shampoo Grisi Ricitos De Oro Manzanilla 100 Ml;NO;8;0000-00-00 00:00:00;2021-06-09 16:04:46
+3685;7509546650708;Shampoo Mennen 200 Ml;uploads/0rna0YCBEfgok06bDlZksrjmpBlZ5ukZceBfOrG6.jpg;Shampoo Mennen 200 Ml;NO;8;0000-00-00 00:00:00;2021-06-09 16:03:49
+4137;7501943471900;Toallitas Humedas Absorsec C/120;uploads/dnAuhsT3xeru3lM0TtZHZ1fJ6rnim6gqrwbI0OFv.jpg;Toallitas Humedas Absorsec C/120;NO;8;0000-00-00 00:00:00;2021-06-09 16:05:02
+4258;759684154041;Vaselina Jaloma 230 Gr;uploads/CXnc6UtbWUMdrnwFgV2hWWHkkqiBLGl20K9MoTyX.jpg;Vaselina Jaloma 230 Gr;NO;3;0000-00-00 00:00:00;2021-06-09 16:10:46
+4305;354312225140;Vitacilina Unguento;uploads/fMs6DOfBgGvIYcqgB0YNycz8KKzIxKdbbjvmhKci.jpg;Vitacilina Unguento;NO;8;0000-00-00 00:00:00;2021-06-09 16:04:07
+4327;759684432071;Vselina Jaloma 60 Gr;uploads/7sjtVCSo0HvFfNzbzZk8QPYAxJ808F4xcg9UGo4J.jpg;Vselina Jaloma 60 Gr;NO;8;0000-00-00 00:00:00;2021-06-09 16:05:15
