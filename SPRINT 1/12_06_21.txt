@@ -1,0 +1,50 @@
+datos domicilio
+calle
+numero
+referencias, entre calles
+colonia
+
+Hacer
+Pasar total
+Pasar total a la vist domicilio
+Checar todos los barrios de zimatlan para cargar en colonia
+Agregar url de medios de pago y conectarlo 
+Terminar vista medios de pago
+Terminar vista de revision pedidos
+Terminar vista confirmar compra
+
+hoy)
+hacer dinamico costo de envio
+maximo de pago a preparar cliente
+visualizador
+
+Producto agregado al carrito resaltarlo
+
+La solicitud de compra se estará enviando a la sucursal de Farmacias Gi elegida para su verificación y aprobación. 
+
+Si usted ya verifico la información de su pedido presione el boton " Confirmar Compra". 
+La solicitud de compra se estará enviando a la sucursal de Farmacias Gi elegida para su verificación y aprobación.
+
+
+
+La solicitud de compra se ha enviando a la sucursal de Farmacias Gi elegida para su verificación y aprobación. Farmacias gi atenderá su solicitud lo más pronto posible y una vez confirmada la compra por nosotros. Usted podrá ver el estado de su paquete en la seccion ""
+ incluyendo fecha y hora de entrega. Por favor estar al pendiente.
+
+
+Nota: Dentro del horario laboral Una vez confirmada la compra por parte de Farmacias Gi, se le está indicando la fecha y hora estimada para hacer la entrega de 
+su pedido. El tiempo de entrega aproximado es de 1 hora, contando a partir de la aprobación de la compra por parte de Farmacias Gi.
+
+En caso de aclaración sobre su pedido, empleados de Farmacias Gi, se estarán comunicando vía telefónica con usted.
+
+Atendemos sus solicitudes de compra en un horario laboral de: 9am - 7pm.
+
+
+
+
+   protected $fillable = [
+        'idPedido',
+        'idSucProd',
+        'precio',
+        'cantidad',
+        'subtotal'
+    ];
