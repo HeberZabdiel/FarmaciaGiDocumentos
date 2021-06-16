@@ -18,6 +18,7 @@ en ventacarga cliente del ecommercer
 antiguo
 
 ECOMMERVE
+CORREGIDOS
 Cotizaciones. 
 Resumen
 pagos paypal
@@ -39,18 +40,13 @@ checar las preguntas a hacerle a la doctora Leicy
 checar documentacion a firmar asesora externa
 checar responsibidad de carrito
 mantener logueado al cliente cuando se registra
-checar api colonias
 terminar resumen de compra
 agregar boton contraentrega
-forzar vistas proceso compra
-minimo ventas
-cargar imágenes en icommerce y poner precios
-boton regresar
 vistas de seguimiento de pedido
 
-
-
-Corregir ecommerce
+FALTA HACERA PATIR DE AQUI
+ecommerce a partir de aqui
+checar api colonias
 AGREGAR solo mayusculas en los formularios
 validar correo cliente
 corregir editar datos cliente
@@ -64,30 +60,24 @@ pedidos cancelados y entregados
 revisar diseños también en libreta de seguimineto pedidos
 
 Observaciones ecommerce corregir
-Quitar buscador en solicitud
+Quitar buscador en solicitud y seguimiento punto venta
 Selecciona uno para ver informacion a detalle
 Dar estilo tabla derecha
 validar botones 
-
 texto: Selecciona uno para ver su historial de seguimiento
-
 agregar en que parte estamos mod cliente
 dar diseño vermas
-
 mis pedidos responsibidad
-alert index por el momento esta es la existencia que tenemos a la venta
-agrandar total en detallecompra(direccion)
-cambiar texto pago: pagará
+alert index por el momento esta es la existencia que tenemos a la venta	OK
+agrandar total en detallecompra(direccion)	OK
+cambiar texto pago: pagará	OK
 validar minmo compra
-ver producto quitar input no funciona
+ver producto quitar input no funciona	OK FUNCIONA
 ajustar buscador
-
 seguimiento pedido sin responsibidad *listo
 agregar olvide contraseña
 validamos pedidos mayor a 50
-
 resaltar productos sin existendcia con otro xolor en catqlogo
-
 productos sin receta
 
 composer require laravel/fortify *instalar
