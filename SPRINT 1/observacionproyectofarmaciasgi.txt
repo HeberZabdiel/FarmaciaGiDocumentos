@@ -1,0 +1,112 @@
+corregir punto venta
+compras marcar azulpagado rojo credito
+testear reportes todos fallo uno
+agregar abono abajo
+que no se cierre modal de compra al agregar productos
+compra: quitar titulo acciones en col ver
+verificar acciones de las claves no inserta venta x clave
+username editar a nombre de usuario
+empleado baja y alta minuscula confirm
+me fallo un poco resportes  nuevos
+error desabilitado empleado
+alta producto minuscula
+costo in 4digitos
+observacion no obligatorio
+precio mando
+en ventacarga cliente del ecommercer
+
+antiguo
+
+ECOMMERVE
+Cotizaciones. 
+Resumen
+pagos paypal
+vistas del modulo de cotizacion
+historial de pedidos
+confirmar correo de los clientes que se registran en el ecommerce
+validar registro cliente en el ecommerce
+Al registrarse el cliente pedirle su direccion y su numero de cuenta
+agregar forma de pago contra entrega
+Preguntarle al cliente con cuanto va a pagar al entregar
+quitar productos de carrito proincipal
+
+trabajar con responsibidad del ecommerce
+terminar las ventas del ecommerce
+terminar los pagos
+terminar seguimiento de pedidos
+Quitar boton de pagar en direccion de envio
+checar las preguntas a hacerle a la doctora Leicy
+checar documentacion a firmar asesora externa
+checar responsibidad de carrito
+mantener logueado al cliente cuando se registra
+checar api colonias
+terminar resumen de compra
+agregar boton contraentrega
+forzar vistas proceso compra
+minimo ventas
+cargar imágenes en icommerce y poner precios
+boton regresar
+vistas de seguimiento de pedido
+
+
+
+Corregir ecommerce
+AGREGAR solo mayusculas en los formularios
+validar correo cliente
+corregir editar datos cliente
+Corregir seguimiento en punto venta
+corregir pdf comprobante y complementar
+subir al hosting proyecto
+validar compra minima 50
+mejorar vistas mmodulo cliente ecommerce
+revisar testear y mejorar vista seguimiento en punto venta(no aparecio instruccion) y ecommerce
+pedidos cancelados y entregados
+revisar diseños también en libreta de seguimineto pedidos
+
+Observaciones ecommerce corregir
+Quitar buscador en solicitud
+Selecciona uno para ver informacion a detalle
+Dar estilo tabla derecha
+validar botones 
+
+texto: Selecciona uno para ver su historial de seguimiento
+
+agregar en que parte estamos mod cliente
+dar diseño vermas
+
+mis pedidos responsibidad
+alert index por el momento esta es la existencia que tenemos a la venta
+agrandar total en detallecompra(direccion)
+cambiar texto pago: pagará
+validar minmo compra
+ver producto quitar input no funciona
+ajustar buscador
+
+seguimiento pedido sin responsibidad *listo
+agregar olvide contraseña
+validamos pedidos mayor a 50
+
+resaltar productos sin existendcia con otro xolor en catqlogo
+
+productos sin receta
+
+composer require laravel/fortify *instalar
+php artisan vendor:publish --provider="Laravel\Fortify\FortifyServiceProvider"
+
+
+
+
+
+Para la exposicion revisor
+Ejemplos de compra productos:
+solo Medicamentos y con img
+exponer en menosde 40min
+
+
+
+medicamentos controlados:
+
+
+
+
+
