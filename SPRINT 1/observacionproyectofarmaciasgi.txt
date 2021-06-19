@@ -1,64 +1,9 @@
-corregir punto venta
-compras marcar azulpagado rojo credito
-testear reportes todos fallo uno
-agregar abono abajo
-que no se cierre modal de compra al agregar productos
-compra: quitar titulo acciones en col ver
-verificar acciones de las claves no inserta venta x clave
-username editar a nombre de usuario
-empleado baja y alta minuscula confirm
-me fallo un poco resportes  nuevos
-error desabilitado empleado
-alta producto minuscula
-costo in 4digitos
-observacion no obligatorio
-precio mando
-en ventacarga cliente del ecommercer
 
-antiguo
 
-ECOMMERVE
-CORREGIDOS
-Cotizaciones. 
-Resumen
-pagos paypal
-vistas del modulo de cotizacion
-historial de pedidos
-confirmar correo de los clientes que se registran en el ecommerce
-validar registro cliente en el ecommerce
-Al registrarse el cliente pedirle su direccion y su numero de cuenta
-agregar forma de pago contra entrega
-Preguntarle al cliente con cuanto va a pagar al entregar
-quitar productos de carrito proincipal
 
-trabajar con responsibidad del ecommerce
-terminar las ventas del ecommerce
-terminar los pagos
-terminar seguimiento de pedidos
-Quitar boton de pagar en direccion de envio
-checar las preguntas a hacerle a la doctora Leicy
-checar documentacion a firmar asesora externa
-checar responsibidad de carrito
-mantener logueado al cliente cuando se registra
-terminar resumen de compra
-agregar boton contraentrega
-vistas de seguimiento de pedido
+medicamentos controlados:
 
-FALTA HACERA PATIR DE AQUI
-ecommerce a partir de aqui
-checar api colonias
-AGREGAR solo mayusculas en los formularios
-validar correo cliente
-corregir editar datos cliente
-Corregir seguimiento en punto venta
-corregir pdf comprobante y complementar
-subir al hosting proyecto
-validar compra minima 50
-mejorar vistas mmodulo cliente ecommerce
-revisar testear y mejorar vista seguimiento en punto venta(no aparecio instruccion) y ecommerce
-pedidos cancelados y entregados
-revisar diseños también en libreta de seguimineto pedidos
-
+<<<<<<< HEAD
 Observaciones ecommerce corregir
 Quitar buscador en solicitud y seguimiento punto venta
 Selecciona uno para ver informacion a detalle
@@ -80,21 +25,11 @@ validamos pedidos mayor a 50
 resaltar productos sin existendcia con otro xolor en catqlogo
 productos sin receta
 mejorar diseño ventas ecommerce y seguimineto pedido
+=======
+
+>>>>>>> 3d251ab54a4aa15e5c9ab42dcb1a9892e06cb5b3
 composer require laravel/fortify *instalar
 php artisan vendor:publish --provider="Laravel\Fortify\FortifyServiceProvider"
-
-
-
-
-
-Para la exposicion revisor
-Ejemplos de compra productos:
-solo Medicamentos y con img
-exponer en menosde 40min
-
-
-
-medicamentos controlados:
 
 
 
