@@ -3,7 +3,31 @@
 
 medicamentos controlados:
 
+<<<<<<< HEAD
+Observaciones ecommerce corregir
+Quitar buscador en solicitud y seguimiento punto venta
+Selecciona uno para ver informacion a detalle
+Dar estilo tabla derecha
+validar botones 
+texto: Selecciona uno para ver su historial de seguimiento
+agregar en que parte estamos mod cliente
+dar diseño vermas
+mis pedidos responsibidad
+alert index por el momento esta es la existencia que tenemos a la venta	OK
+agrandar total en detallecompra(direccion)	OK
+cambiar texto pago: pagará	OK
+validar minmo compra
+ver producto quitar input no funciona	OK FUNCIONA
+ajustar buscador
+seguimiento pedido sin responsibidad *listo
+agregar olvide contraseña
+validamos pedidos mayor a 50
+resaltar productos sin existendcia con otro xolor en catqlogo
+productos sin receta
+mejorar diseño ventas ecommerce y seguimineto pedido
+=======
 
+>>>>>>> 3d251ab54a4aa15e5c9ab42dcb1a9892e06cb5b3
 composer require laravel/fortify *instalar
 php artisan vendor:publish --provider="Laravel\Fortify\FortifyServiceProvider"
 
