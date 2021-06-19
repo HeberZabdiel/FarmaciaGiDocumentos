@@ -79,7 +79,7 @@ agregar olvide contraseña
 validamos pedidos mayor a 50
 resaltar productos sin existendcia con otro xolor en catqlogo
 productos sin receta
-
+mejorar diseño ventas ecommerce y seguimineto pedido
 composer require laravel/fortify *instalar
 php artisan vendor:publish --provider="Laravel\Fortify\FortifyServiceProvider"
 
